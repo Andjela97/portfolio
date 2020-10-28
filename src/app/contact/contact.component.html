@@ -1,0 +1,18 @@
+<div class="contact">
+    <h3>04. <span>Get in touch</span></h3>
+    <div class="inputs">
+        <div class="left">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Please enter your name." [(ngModel)]="msg.name">
+            <label for="phone">Phone</label>
+            <input type="text" placeholder=" e.g. +381123123123 " [(ngModel)]="msg.phone">
+            <label for="email ">Email</label>
+            <input type="email " placeholder="e.g. johndoe@mail.com " [(ngModel)]="msg.mail">
+        </div>
+        <div class="right ">
+            <label for="message ">Your Message</label>
+            <textarea name="message " id="message " cols="30 " rows="10 " placeholder="Your message here. " [(ngModel)]="msg.message"></textarea>
+        </div>
+    </div>
+    <button class="btn" (click)="sendMail()">Send message</button>
+</div>

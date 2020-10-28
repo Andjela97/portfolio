@@ -1,0 +1,52 @@
+.contact
+    width: 100%
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: #A8B2D1
+    font-family: 'Roboto Mono', monospace
+    h3
+        display: inline-block
+        color: #64FFDA
+        margin-bottom: 1.5em
+        span
+            color: #A8B2D1
+
+input, textarea
+    display: block
+    width: 30vw
+    border: 1px solid #64FFDA
+    border-radius: 5px
+    background: transparent
+    margin: .3rem auto .7rem
+    padding: 5px
+    color: #A8B2D1
+    &:hover
+        box-shadow: 1.5px 1.5px #64FFDA, -1.5px -1.5px #64FFDA, -1.5px 1.5px #64FFDA, 1.5px -1.5px #64FFDA
+    &:focus
+        background: transparent
+        box-shadow: 1.5px 1.5px #64FFDA, -1.5px -1.5px #64FFDA, -1.5px 1.5px #64FFDA, 1.5px -1.5px #64FFDA
+    &::placeholder
+        color: #909297
+        padding: 5px
+input
+    height: 40px
+.btn
+    background: transparent
+    color: #64FFDA
+    padding: 1rem 1.8rem
+    border: 1px solid #64FFDA
+    border-radius: 6px
+    transition: .4s ease
+    cursor: pointer
+    &:hover
+        background: #64ffdb3b
+        transition: .4s ease
+.left
+    display: flex
+    flex-direction: column
+.right
+    display: flex
+    flex-direction: column

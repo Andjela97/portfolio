@@ -1,0 +1,56 @@
+.headline
+    display: flex
+    height: 100vh
+    justify-content: center
+    align-items: flex-start
+    flex-direction: column
+    text-align: left
+    margin-left: 20%
+
+h3, a
+    font-size: 16px
+    font-family: 'Roboto Mono', monospace
+    color: #64FFDA
+    letter-spacing: .1rem
+
+h1, p
+    font-family: 'Calibri', sans-serif
+    color: #A8B2D1
+    line-height: 1.2
+    font-size: 48px
+    letter-spacing: .1rem
+    margin: 0
+
+.name
+    color: #E6F1FF
+
+p
+    font-size: 18px
+    margin-top: 1rem
+
+.contact
+    display: inline-block
+    text-decoration: none
+    color: #64FFDA
+    font-size: 16px
+    letter-spacing: .05rem
+    margin-top: 5rem
+    padding: 1rem 1rem
+    border: 1px solid #64FFDA
+    border-radius: 6px
+    transition: .4s ease
+    cursor: pointer
+    &:hover
+        background: #64ffdb3b
+        transition: .4s ease
+
+@media ( max-width: 1480px )
+    h3, a
+        font-size: 12px
+    h1, p
+        font-size: 32px
+    p
+        font-size: 12px
+    .contact
+        font-size: 12px
+        margin-top: 3rem
