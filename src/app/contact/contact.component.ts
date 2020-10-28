@@ -22,7 +22,7 @@ export class ContactComponent implements OnInit {
   }
 
   sendMail() {
-    this.service.sendEmail('http://localhost:8084/sender/send', this.msg).subscribe(
+    this.service.sendEmail('https://andjela-portfolio-mail.herokuapp.com/send', this.msg).subscribe(
       (data) => {
         let res: any = data;
         console.log("Usao u servis......")
